@@ -1,17 +1,86 @@
-# llamachatflutter
+# Telesim
 
-A new Flutter project.
+Telesim is a Flutter-based mobile application that transforms users into network analysts, providing valuable insights to telecom companies and ISPs about network performance across various locations.
+
+![Screenshot_20241020-175141](https://github.com/user-attachments/assets/a8625c98-53bc-4b21-b47f-126ed554fba7)
+![Screenshot_20241020-175146](https://github.com/user-attachments/assets/5204120a-90a9-4e87-948f-871ef8b8b552)
+
+## Features
+
+- Image capture and upload functionality
+- Location and population data input
+- Detailed description field for network experiences
+- Real-time network status monitoring
+- AI-powered image analysis
+- Comprehensive report generation
+
+## Technology Stack
+
+- Frontend: Flutter
+- Backend: Llama 3.2 11B Vision and 1B models for AI analysis
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter SDK (latest stable version)
+- Dart SDK
+- Android Studio or VS Code with Flutter extensions
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# telesim
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/telesim.git
+   ```
+2. Navigate to the project directory:
+   ```
+   cd telesim
+   ```
+3. Install dependencies:
+   ```
+   flutter pub get
+   ```
+4. Run the app:
+   ```
+   flutter run
+   ```
+
+### Download APK
+
+You can download the APK directly:
+
+[Download Telesim APK](https://drive.google.com/file/d/1Nf4TE_E-K4HEjftDf6NdU1iSbkjWQWXt/view?usp=sharing)
+
+## Usage
+
+1. Open the app and grant necessary permissions.
+2. Capture an image or select one from your gallery.
+3. Input additional data (population, description).
+4. Upload the image and data.
+5. Use "Analyze Image" for AI-powered insights.
+6. Submit your report to contribute to network analysis.
+
+## Contributing
+
+Contributions to Telesim are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any queries or support, please contact:
+- Name: Nkugwa Mark William
+- Email: nkugwamarkwilliam@gmail.com
+
+## Acknowledgments
+
+- Thanks to all beta testers for their valuable feedback.
+- Special thanks to the Flutter community for their excellent documentation and support.
+- Gratitude to the Llama AI team for their powerful language models.
+
+
+
+
