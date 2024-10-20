@@ -2,8 +2,10 @@
 
 Telesim is a Flutter-based mobile application that transforms users into network analysts, providing valuable insights to telecom companies and ISPs about network performance across various locations.
 
-![Screenshot_20241020-175141](https://github.com/user-attachments/assets/a8625c98-53bc-4b21-b47f-126ed554fba7)
-![Screenshot_20241020-175146](https://github.com/user-attachments/assets/5204120a-90a9-4e87-948f-871ef8b8b552)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/a8625c98-53bc-4b21-b47f-126ed554fba7" alt="Screenshot_20241020-175141" width="45%" />
+  <img src="https://github.com/user-attachments/assets/5204120a-90a9-4e87-948f-871ef8b8b552" alt="Screenshot_20241020-175146" width="45%" />
+</p>
 
 ## Features
 
