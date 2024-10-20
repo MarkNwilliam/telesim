@@ -1,0 +1,58 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+
+android {
+    namespace "com.example.llamachatflutter"
+    compileSdk flutter.compileSdkVersion
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.example.llamachatflutter"
+        minSdkVersion 26
+        targetSdkVersion 34
+        versionCode flutter.versionCode.toInteger()
+        versionName flutter.versionName
+    }
+
+    buildTypes {
+        release {
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+            
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/INDEX.LIST'
+        exclude 'META-INF/io.netty.versions.properties'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/LICENSE.md'
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
